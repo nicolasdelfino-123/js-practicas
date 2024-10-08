@@ -15,3 +15,10 @@ let numberRandom2 = Math.floor(Math.random() * 100);
 arr.push(numberRandom1);
 arr.push(numberRandom2);
 console.log(arr);
+/* MEJOR FORMA DE RESOLVERLO */
+
+
+arr.push(Math.floor(Math.random() * 100));
+arr.push(Math.floor(Math.random() * 100));
+
+console.log(arr);
